@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace SnapSoccer
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
+            Debug.WriteLine("Hello world");
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.WriteLine("Hello World!");
             //Console.ReadKey();
