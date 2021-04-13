@@ -17,7 +17,8 @@ namespace SnapSoccer
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.WriteLine("Programme has finished ");
             Console.ReadKey();
-
+            string greeting = Properties.Settings.Default.GreetingMessage;
+            Console.WriteLine(greeting);
 
         } // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app!
     }
